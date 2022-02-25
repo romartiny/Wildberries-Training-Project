@@ -58,7 +58,6 @@ const getGoods = () => {
 
     viewAll.forEach((link) => {
         link.addEventListener('click', (event) => {
-            console.log(viewAll);
             event.preventDefault(); 
 
             const linkValue = link.textContent;
